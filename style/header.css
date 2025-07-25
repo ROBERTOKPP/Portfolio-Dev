@@ -1,17 +1,33 @@
+#intro{
+  background-image: url(../assent/background/Background_Intro.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1366px;
+  height: 750px;
+}
+
 header {
+  position: relative;
+  border: 2px solid red;
+  .avatar {
+    position: absolute;
+    left: 627px; 
+    top: 120px;
+    width: 112px;
+    height: 112px;
+    img:nth-child(1){
+        display: flex;
+        padding: 3px;
+        border: 2px solid var(--red);
+        border-radius: 50%;
+        position: absolute;
+        top:0;
+        left: 0;
 
-  img{
-  max-width: 1366px;
-  position: absolute;
+    }    
+
   }
-  .avatar{
-    display: flex;
-    position: relative;
-    left: 50%;
-    justify-content: center;
-    align-items: center;
-  }
-
-
 
 }
+
