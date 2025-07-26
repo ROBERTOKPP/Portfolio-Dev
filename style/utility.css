@@ -1,9 +1,7 @@
-.conteiner-avatar{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .grid {
   display: grid;
+}
+
+.grid-flex-row{
+  grid-auto-flow: row;
 }
