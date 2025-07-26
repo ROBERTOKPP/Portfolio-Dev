@@ -46,22 +46,3 @@ body{
 color: var(--gray-200);
 }
 
-.conteiner{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-h1{
-  font: var(--text-lg-asap);
-  color: var(--gray-100);
-}
-p{
-  font: var(--text-sm);
-  color: var(--gray-300);
-}
-
-.color-red{
-  color: var(--red);
-}

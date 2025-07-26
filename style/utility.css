@@ -1,7 +1,42 @@
-.grid {
+.conteiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
   display: grid;
+}
+.grid-flex-col{
+  grid-auto-flow: column;
 }
 
 .grid-flex-row{
   grid-auto-flow: row;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
+.text-md{
+  font: var(--text-md);
+}
+
+
+h1{
+  font: var(--text-lg-asap);
+  color: var(--gray-100);
+}
+
+h2{
+  font: var(--text-subt-inco);
+}
+p{
+  font: var(--text-sm);
+  color: var(--gray-300);
+}
+
+.color-red{
+  color: var(--red);
 }
