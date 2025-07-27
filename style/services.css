@@ -1,0 +1,27 @@
+#services {
+  padding-inline: 120px;
+  padding-block: 88px 120px;
+}
+
+.card2 {
+  width: 280px;
+  height: 155px;
+  background-color: var(--gray-600);
+  border: 2px solid var(--gray-500);
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  img {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font: var(--font-md-asap);
+    color: var(--gray-100);
+  }
+  p {
+    font: var(--text-sm);
+    margin-top: 8px;
+    color: var(--gray-200);
+  }
+}

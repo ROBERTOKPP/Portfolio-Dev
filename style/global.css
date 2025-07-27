@@ -1,49 +1,53 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root{
+:root {
 
   /* Cores principais do projeto */
---red: #E3646E;
---purple: #BB72E9;
---blue: #3996DB;
---green:#82BC4F;
---yellow: #EABD5F;
+  --red: #E3646E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
 
 
-/* Cores da base do projeto */
---gray-100:#E2E4E9;
---gray-200:#C0C4CE;
---gray-300:#878EA1;
---gray-400:#292C34;
---gray-500:#16181D;
---gray-600:#0D0E11;
+  /* Cores da base do projeto */
+  --gray-100: #E2E4E9;
+  --gray-200: #C0C4CE;
+  --gray-300: #878EA1;
+  --gray-400: #292C34;
+  --gray-500: #16181D;
+  --gray-600: #0D0E11;
 
 
-/* Fontes Asap*/
---font-family-asap:  "Asap", sans-serif;
---text-lg-asap: bold 56px/120% var(--font-family-asap);
---tittle-sm-asap: bold 24px/120% var(--font-family-asap);
+  /* Fontes Asap*/
+  --font-family-asap: "Asap", sans-serif;
+  --text-lg-asap: bold 56px/120% var(--font-family-asap);
+  --tittle-sm-asap: bold 24px/120% var(--font-family-asap);
+  --font-md-asap: bold 16px/120% var(--font-family-asap);
 
 
-/* Fontes Inconsolata*/
---font-family-inco: "Inconsolata", monospace;
---text-subt-inco: 20px/120% var(--font-family-inco);
+  /* Fontes Inconsolata*/
+  --font-family-inco: "Inconsolata", monospace;
+  --text-subt-inco: 20px/120% var(--font-family-inco);
 
 
-/* Fontes maven pro*/
---font-family-maven:  "Maven Pro", sans-serif;
---text-md: 16px/140% var(--font-family-maven);
---text-sm: 14px/140% var(--font-family-maven);
+  /* Fontes maven pro*/
+  --font-family-maven: "Maven Pro", sans-serif;
+  --text-md: 16px/140% var(--font-family-maven);
+  --text-sm: 14px/140% var(--font-family-maven);
 
 }
 
-body{
-background-color: var(--gray-500);
-color: var(--gray-200);
+body {
+  background-color: var(--gray-500);
+  color: var(--gray-200);
 }
 
-
+#services {
+  background-color: var(--gray-600);
+  width: 100vw;
+}

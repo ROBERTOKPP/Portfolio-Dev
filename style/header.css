@@ -1,41 +1,35 @@
-#intro{
-  background-image: url(../assent/background/Background_Intro.png);
+header {
+  background-image: url(..//assents/background/Background_Intro.png);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   width: 1366px;
   height: 750px;
-  #intro:nth-child(2){
-    gap: 56px;
-  }
-}
-
-header{
   margin-inline: auto;
-  margin-top: 120px;
-  .avatar{
-    margin-bottom: 56px;
-    .user{
-    border: 2px solid var(--red);
-    border-radius: 50%;
-    padding: 3px;
-    }
-    img:nth-child(2){
+
+  h1 {
+    margin-block: 8px 20px;
+  }
+  .avatar {
+    margin-block: 120px 56px;
     position: relative;
-    top: 40px;
-    right: 35px;
+    .user-imagen {
+      border: 2px solid var(--red);
+      border-radius: 50%;
+      padding: 3px;
+    }
+    img:nth-child(2) {
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
   }
-  h2{
-    
-    margin-bottom: 8px;
-  }
-  h1{
-    margin-bottom: 20px;
-  }
-  .tags{
+  .tags {
     margin-block: 80px 94px;
-    .tag{
+    .tag {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background-color: var(--gray-400);
       padding: 8px 16px 8px;
       border-radius: 999px;
@@ -43,6 +37,3 @@ header{
     }
   }
 }
-
-
-

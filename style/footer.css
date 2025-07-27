@@ -1,0 +1,8 @@
+footer {
+  background-image: url(../assets/background/Background_Contacts.png);
+  background-size: cover;
+  background-position: center;
+  margin-inline: auto;
+  width: 1366px;
+  height: 787px;
+}

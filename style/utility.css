@@ -1,9 +1,8 @@
-.conteiner{
-  display: flex;
+.container{
   justify-content: center;
   align-items: center;
+  justify-items: center;
 }
-
 .grid{
   display: grid;
 }
@@ -20,11 +19,22 @@
 .gap-16{
   gap: 16px;
 }
+
 .gap-24{
   gap: 24px;
 }
+
+.gap-56{
+  gap: 56px;
+}
+
+
 .text-md{
   font: var(--text-md);
+}
+
+.text-subt-inco{
+  font: var(--text-subt-inco);
 }
 
 
@@ -36,10 +46,7 @@ h1{
 h2{
   font: var(--text-subt-inco);
 }
-p{
-  font: var(--text-sm);
-  color: var(--gray-300);
-}
+
 
 .color-red{
   color: var(--red);
@@ -47,6 +54,8 @@ p{
 
 .title-header{
   margin-bottom: 56px;
+  justify-items: center;
+
   h2{
     color: var(--red);
     font: var(--text-subt-inco);
