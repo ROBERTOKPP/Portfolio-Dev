@@ -37,6 +37,9 @@
   font: var(--text-subt-inco);
 }
 
+.tittle-sm-asap{
+  font: var(--tittle-sm-asap);
+}
 
 h1{
   font: var(--text-lg-asap);
@@ -65,4 +68,8 @@ h2{
     color: var(--gray-100);
     font: var(--tittle-sm-asap);
   }
+}
+
+.color-purple{
+  color: var(--purple);
 }
