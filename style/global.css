@@ -49,5 +49,5 @@ body {
 
 #services {
   background-color: var(--gray-600);
-  width: 100vw;
+  width:100%;
 }

@@ -5,4 +5,21 @@ footer {
   margin-inline: auto;
   width: 1366px;
   height: 787px;
+  padding-inline: 120px;
+  padding-block: 128px 200px;
+}
+
+.social-button {
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  padding: 12px;
+  width: 400px;
+  height: 68px;
+  justify-content: center;
+  align-items: center;
+
+  /* img:nth-child() {
+    border: 3px solid red;
+    align-content: end;
+  } */
 }
