@@ -1,28 +1,26 @@
+#projects {
+  padding-inline: 20rem;
+  padding-block: 10rem;
+}
 .card {
   background-color: var(--gray-400);
   border-radius: 12px;
-  width: 330px;
-  height: 280px;
+  padding: 1rem;
   &:hover {
-    border: 1.5px solid var(--gray-300);
+    border: 1px solid var(--gray-300);
+    scale: 110%;
   }
-  img {
-    max-width: 306px;
-    margin: 12px 12px 20px;
-    border-radius: 8px;
+  & img {
+    width: 100%;
+    border-radius: .5rem;
   }
-  .text-card {
-    margin-inline: 12px;
-    margin-bottom: 17px;
-    h2 {
-      font: bold 16px/120% var(--font-family-asap);
-      margin-bottom: 8px;
+  & .text-card {
+   & h2 {
+    padding-block: .5rem;  
+    font: bold 16px/120% var(--font-family-asap);
     }
   }
-  p {
+  & p {
     font: var(--text-md);
   }
-}
-#projects {
-  padding: 72px 120px 144px;
 }
