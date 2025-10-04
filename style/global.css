@@ -45,9 +45,9 @@
 body {
   background-color: var(--gray-500);
   color: var(--gray-200);
+
+  & a{
+    color: var(--gray-200);
+  }
 }
 
-#services {
-  background-color: var(--gray-600);
-  width:100%;
-}

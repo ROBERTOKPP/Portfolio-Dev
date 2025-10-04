@@ -1,26 +1,29 @@
 #projects {
-  padding-inline: 20rem;
-  padding-block: 10rem;
-}
-.card {
-  background-color: var(--gray-400);
-  border-radius: 12px;
-  padding: 1rem;
-  &:hover {
-    border: 1px solid var(--gray-300);
-    scale: 110%;
-  }
-  & img {
-    width: 100%;
-    border-radius: .5rem;
-  }
-  & .text-card {
-   & h2 {
-    padding-block: .5rem;  
-    font: bold 16px/120% var(--font-family-asap);
+  padding: 5rem;
+  & > :nth-child(2) {
+    & a {
+      text-decoration: none;
+      & h2 {
+        padding-block: 0.5rem;
+        font: bold 1rem/1.2 var(--font-family-asap);
+      }
+      & p {
+        font: var(--text-md);
+      }
     }
   }
-  & p {
-    font: var(--text-md);
+  & .card {
+    background-color: var(--gray-400);
+    border-radius: 12px;
+    padding: 1rem;
+
+    &:hover {
+      border: 1px solid var(--gray-300);
+      scale: 105%;
+    }
+    & img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
   }
 }
