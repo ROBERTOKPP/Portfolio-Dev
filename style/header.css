@@ -1,13 +1,11 @@
 header {
-  background-image: url(..//assets/background/Background_Intro.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  background: url(../assets/background/Background_Intro.png) center/cover
+    no-repeat;
 
   & .avatar {
     margin-block: 7rem 3.5rem;
     position: relative;
-    & .user-imagen {
+    & .user-image {
       border: 2px solid var(--red);
       border-radius: 50%;
       padding: 3px;
@@ -21,9 +19,14 @@ header {
       right: 1rem;
     }
   }
- & .tags {
+
+  & .content {
+    text-align: center;
+  }
+
+  & .skills {
     margin-block: 5rem 5.5rem;
-   & .tag {
+    & .tag {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -32,5 +35,29 @@ header {
       border-radius: 999px;
       gap: 8px;
     }
+  }
+
+  &:hover {
+    & .arrow-down {
+      animation: arrow-down 5s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes arrow-down {
+  0% {
+    transform: translateY(10px);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
   }
 }
