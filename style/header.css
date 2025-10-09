@@ -1,16 +1,16 @@
 header {
   background: url(../assets/background/Background_Intro.png) center/cover
     no-repeat;
-
+  align-items: center;
   & .avatar {
-    margin-block: 7rem 3.5rem;
     position: relative;
+    margin-block: 7rem 3.5rem;
     & .user-image {
+      width: 150px;
+      height: 150px;
       border: 2px solid var(--red);
       border-radius: 50%;
       padding: 3px;
-      width: 150px;
-      height: 150px;
       object-fit: cover;
     }
     & img:nth-child(2) {
@@ -22,10 +22,16 @@ header {
 
   & .content {
     text-align: center;
+    & > :nth-child(3) {
+      align-self: center;
+      max-width: 60%;
+    }
   }
 
   & .skills {
     margin-block: 5rem 5.5rem;
+    padding-inline: 10rem;
+    justify-content: center;
     & .tag {
       display: flex;
       align-items: center;
@@ -40,6 +46,29 @@ header {
   &:hover {
     & .arrow-down {
       animation: arrow-down 5s ease-in-out infinite;
+    }
+  }
+}
+
+@media (width < 1000px) {
+  header {
+    background-position: initial;
+    background-size: 100%;
+    & .avatar {
+      margin-block: 2rem 3rem;
+    }
+    & .content {
+      & > :nth-child(3) {
+        max-width: 100%;
+      }
+    }
+
+    & .skills {
+      margin-block: 2rem 2.5rem;
+      padding-inline: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }

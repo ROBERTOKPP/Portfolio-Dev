@@ -1,12 +1,24 @@
 .container {
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
   width: 100%;
 }
+
+@media (width < 1000px) {
+  .container {
+    padding-inline: 1rem;
+  }
+}
+
 .grid {
   display: grid;
 }
+
+.flex {
+  display: flex;
+}
+.flex-direction-col {
+  flex-direction: column;
+}
+
 .grid-flex-col {
   grid-auto-flow: column;
 }
@@ -44,6 +56,13 @@
 h1 {
   font: var(--text-lg-asap);
   color: var(--gray-100);
+}
+
+@media (width < 1000px) {
+  h1 {
+  font-size: 2.5rem;
+
+}
 }
 
 h2 {
