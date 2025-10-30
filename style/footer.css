@@ -6,12 +6,15 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  align-items: center;
   & #header-footer {
     margin-bottom: 48px;
     & h2 {
       margin-block: 8px;
     }
   }
+
   & .social-button {
     background-color: var(--gray-400);
     border-radius: 8px;
